@@ -1,0 +1,18 @@
+{
+  "name": "wikiscraperbot",
+  "version": "1.0.0",
+  "description": "a bot that connects to a node js server to scrape wikipedia pages to get the main content and then respond to questions regarding it using nltk.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "clumsyclover",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
